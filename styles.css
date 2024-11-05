@@ -1,0 +1,72 @@
+
+body{
+    background-color: rgb(120,120,120);
+    color: white;
+    font-family: 'arial', san-serif;
+    font-size: 25px;
+  }
+  #navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(20,150,120);
+    
+    padding: 10px;
+    display: block;
+    width: 100%;
+  }
+  hr{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #navbar a{
+    margin: 5px;
+    padding: 5px; 
+  }
+  a:link{
+    text-decoration: none;
+    
+  }
+  a:hover{
+    background-color: rgb(144,180,200);
+  }
+  .wel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+  font-family: serif;
+    font-weight: bold;
+    
+  }
+  .project-tile{
+    font-size:50px;
+  }
+  
+  .skill_sub{
+    font-size: 50px;
+  }
+  #welcome-section{
+    font-size: 50px;
+  }
+  @media (max-width:800px){
+  body{
+    font-size: 18px;
+  }
+  .project-tile{
+    font-size:30px;
+  }
+  
+  .skill_sub{
+    font-size: 30px;
+  }
+  #welcome-section{
+    font-size: 30px;
+  }
+  }
+  
